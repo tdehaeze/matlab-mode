@@ -1,3 +1,13 @@
+;;; matlab-mode.el --- Mode for Matlab Files
+;; Author: 
+;; Keywords: emacs, matlab
+;; Package-Requires: ((emacs "24.1"))
+;; This file is NOT part of GNU Emacs.
+;;; Commentary:
+;; matlab-mode.el add matlab mode to emacs
+;;; Code:
+
+
 (require 'matlab)
 (require 'matlab-server)
 (require 'company-matlab)
